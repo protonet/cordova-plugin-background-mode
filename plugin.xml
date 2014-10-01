@@ -40,7 +40,7 @@
 
         <!-- Hint is displayed to user by first start -->
         <config-file target="*-Info.plist" parent="NSLocationUsageDescription">
-            <string>Is required -for iOS 6 and above- to run the app in background!</string>
+            <string>Is required to share your location with others.</string>
         </config-file>
 
         <header-file src="src/ios/APPBackgroundMode.h" />
